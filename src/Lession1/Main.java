@@ -4,7 +4,7 @@ public class Main {
 
 
     public static void main(String[] ages) {
-       Author puchkin = new Author("Пушкин", "Александр");
+       Author puchkin = new Author("Пушкин", "Александр ");
         Book onegin = new Book("Евгений Онегин", puchkin, 1831);
         System.out.print(puchkin.getFirstName());
         System.out.println(" "+puchkin.getLastName());
@@ -19,6 +19,7 @@ public class Main {
         System.out.println(" "+dostoevskii.getLastName());
         System.out.println(prestuplenie.getNameBook());
         System.out.println("год "+prestuplenie.getYear());
+     System.out.println(onegin);
 
     }
 }
